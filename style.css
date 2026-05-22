@@ -283,7 +283,7 @@ h2.section-title {
     margin-bottom: 0.3rem;
 }
 
-.project-stack { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.project-stack { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top:0.8rem;}
 .project-link {
     color: var(--muted);
     text-decoration: none;
