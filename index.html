@@ -281,7 +281,10 @@
     }
     .badge-sae { background: rgba(212,168,67,0.12); color: var(--accent); border: 1px solid rgba(212,168,67,0.3); }
     .badge-perso { background: rgba(91,178,143,0.12); color: #5bb28f; border: 1px solid rgba(91,178,143,0.3); }
-    .project-desc { color: #a09d97; font-size: 0.95rem; margin-bottom: 1rem; }
+    .project-desc { color: #a09d97; font-size: 0.95rem; }
+    .project-desc ul { padding-left: 1.2rem; }
+    .project-desc li { margin-bottom: 0.3rem; }
+
     .project-stack { display: flex; flex-wrap: wrap; gap: 0.4rem; }
     .project-link {
       color: var(--muted);
@@ -517,11 +520,10 @@
             <h3 class="project-title">Développement d'application avec reconnaissance d'images par IA</h3>
             <span class="project-badge badge-sae">SAÉ</span>
           </div>
-        <div class="exp-desc">
-          <p>
+          <p class="project-desc">
             Développement d'une application web/mobile avec reconnaissance d'images par Intelligence Artificielle pour la Fédération Française de Bridge.
           </p>
-          <ul>
+          <ul class="project-desc">
             <li>Analyse de besoins métier réels et formalisation en user stories</li>
             <li>Conception et entraînement d’un modèle de reconnaissance de cartes en temps réel (Python, OpenCV, YOLO)</li>
             <li>Création et annotation d’un dataset</li>
