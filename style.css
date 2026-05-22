@@ -271,7 +271,17 @@ h2.section-title {
 }
 .badge-sae { background: rgba(212,168,67,0.12); color: var(--accent); border: 1px solid rgba(212,168,67,0.3); }
 .badge-perso { background: rgba(91,178,143,0.12); color: #5bb28f; border: 1px solid rgba(91,178,143,0.3); }
-.project-desc { color: #a09d97; font-size: 0.95rem; margin-bottom: 1rem; }
+.project-desc {
+    color: #a09d97;
+    font-size: 0.95rem;
+}
+.project-desc ul {
+    padding-left: 1.2rem;
+    margin-top: 0.8rem;
+}
+.project-desc li {
+    margin-bottom: 0.3rem;
+}
 
 .project-stack { display: flex; flex-wrap: wrap; gap: 0.4rem; }
 .project-link {
